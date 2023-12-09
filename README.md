@@ -4,6 +4,7 @@ This is my custom image for Fedora Silverblue based on [uBlue](https://universal
 
 It sets up the uBlue Nvidia image with the following changes:
 
+- Add `/etc/vconsole.conf` to initramfs by default to work around an [upstream issue](https://github.com/fedora-silverblue/issue-tracker/issues/3)
 - Replace firefox with Flatpak version
 - Remove Gnome Tour and Gnome Help
 - Replace Gnome Terminal Nautilus integration with Nautilus-Python to use with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
