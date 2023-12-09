@@ -27,5 +27,4 @@ modules:
 
   - type: script
     scripts:
-      - vconsole_initramfs.sh
       - signing.sh
