@@ -10,3 +10,4 @@ It sets up the uBlue Nvidia image with the following changes:
     - Replace Gnome Terminal Nautilus integration with Nautilus-Python to use with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
 - Install the Fish shell
 - Add required udev rules for kmonad
+- Add libratbag configuration for Logitech MX Master 3S which is only shipped in the git version of libratbag
