@@ -16,6 +16,8 @@ modules:
       - gnome-tour
       - yelp
       - gnome-terminal
+      - htop
+      - nvtop
 
   - type: files
     files:
