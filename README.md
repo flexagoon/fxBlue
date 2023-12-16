@@ -17,3 +17,8 @@ It sets up the uBlue Nvidia image with the following changes:
 - Harden kernel parameters
 - Randomize MAC address
 - Remove Gnome classic session
+- Change Gnome settings
+  - Use adw-gtk3 by default
+  - Show battery percentage
+  - Enable touchpad tap to click
+  - Center new windows
