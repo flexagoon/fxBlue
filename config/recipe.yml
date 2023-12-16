@@ -39,3 +39,7 @@ modules:
     scripts:
       - signing.sh
       - nautilus-open-any-terminal.sh
+
+  - type: bling
+    install:
+      - dconf-update-service
