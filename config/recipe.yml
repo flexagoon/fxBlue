@@ -39,6 +39,7 @@ modules:
     scripts:
       - signing.sh
       - nautilus-open-any-terminal.sh
+      - hide-app-icons.sh
 
   - type: bling
     install:
