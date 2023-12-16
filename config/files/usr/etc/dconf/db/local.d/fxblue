@@ -1,2 +1,13 @@
+[com/github/stunkymonkey/nautilus-open-any-terminal]
+flatpak='system'
+terminal='blackbox'
+
+[org/gnome/desktop/interface]
+gtk-theme='adw-gtk3'
+show-battery-percentage=true
+
+[org/gnome/desktop/peripherals/touchpad]
+tap-to-click=true
+
 [org/gnome/mutter]
 center-new-windows=true
