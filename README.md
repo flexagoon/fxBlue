@@ -8,6 +8,7 @@ It sets up the uBlue Nvidia image with the following changes:
 - Remove unneeded packages
     - Gnome Tour
     - Gnome Help
+    - Gnome Tweaks
     - Htop
     - Nvtop
 - Replace gnome-terminal with Blackbox

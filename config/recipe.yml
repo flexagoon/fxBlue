@@ -12,18 +12,19 @@ modules:
     remove:
       - firefox
       - firefox-langpacks
-      - gnome-terminal-nautilus
-      - gnome-tour
-      - yelp
-      - gnome-terminal
       - htop
       - nvtop
+      - yelp
+      - gnome-terminal
+      - gnome-terminal-nautilus
+      - gnome-tour
       - gnome-classic-session
       - gnome-shell-extension-apps-menu
       - gnome-shell-extension-background-logo
       - gnome-shell-extension-launch-new-instance
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
+      - gnome-tweaks
 
   - type: files
     files:
