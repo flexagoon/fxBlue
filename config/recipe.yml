@@ -8,7 +8,7 @@ modules:
   - type: rpm-ostree
     install:
       - fish
-      - nautilus-python
+
     remove:
       - firefox
       - firefox-langpacks
@@ -38,3 +38,4 @@ modules:
   - type: script
     scripts:
       - signing.sh
+      - nautilus-open-any-terminal.sh
