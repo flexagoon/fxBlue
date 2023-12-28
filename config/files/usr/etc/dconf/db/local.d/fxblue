@@ -1,6 +1,6 @@
 [com/github/stunkymonkey/nautilus-open-any-terminal]
 flatpak='system'
-terminal='blackbox'
+terminal='wezterm'
 
 [org/gnome/desktop/interface]
 gtk-theme='adw-gtk3'

@@ -36,7 +36,7 @@ modules:
     system:
       install:
         - org.mozilla.firefox
-        - com.raggesilver.BlackBox
+        - org.wezfurlong.wezterm
 
   - type: script
     scripts:
