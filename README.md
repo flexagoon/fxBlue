@@ -9,6 +9,7 @@ It sets up the uBlue Nvidia image with the following changes:
     - Gnome Tour
     - Gnome Help
     - Gnome Tweaks
+    - Gnome Extensions
     - Htop
     - Nvtop
 - Replace gnome-terminal with Wezterm
