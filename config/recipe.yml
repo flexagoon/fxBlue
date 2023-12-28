@@ -27,6 +27,7 @@ modules:
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
       - gnome-tweaks
+      - gnome-extensions-app
 
   - type: files
     files:
