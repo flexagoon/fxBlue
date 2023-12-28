@@ -8,6 +8,8 @@ modules:
   - type: rpm-ostree
     install:
       - fish
+      - gnome-shell-extension-blur-my-shell
+      - wl-clipboard
 
     remove:
       - firefox

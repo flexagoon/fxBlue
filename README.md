@@ -14,6 +14,7 @@ It sets up the uBlue Nvidia image with the following changes:
 - Replace gnome-terminal with Blackbox
     - Replace Gnome Terminal Nautilus integration with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
 - Install the Fish shell
+- Install wl-clipboard
 - Add required udev rules for kmonad
 - Harden kernel parameters
 - Randomize MAC address
