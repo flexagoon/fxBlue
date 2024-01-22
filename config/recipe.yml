@@ -10,6 +10,7 @@ modules:
       - fish
       - gnome-shell-extension-blur-my-shell
       - wl-clipboard
+      - neovim
 
     remove:
       - firefox
@@ -27,7 +28,7 @@ modules:
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
       - gnome-tweaks
-      #- gnome-extensions-app
+      - vim-enhanced
 
   - type: files
     files:
