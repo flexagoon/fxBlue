@@ -10,5 +10,3 @@ echo "--> Installing nautilus-open-any-terminal"
 cd nautilus-open-any-terminal
 chmod +x ./tools/update-extension-system.sh
 ./tools/update-extension-system.sh install
-echo "--> Removing gettext build dependency"
-rpm-ostree override remove gettext
