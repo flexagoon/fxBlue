@@ -8,7 +8,6 @@ modules:
   - type: rpm-ostree
     install:
       - fish
-      - gnome-shell-extension-blur-my-shell
       - wl-clipboard
       - neovim
 
@@ -43,9 +42,10 @@ modules:
   - type: script
     scripts:
       - signing.sh
+      - extensions.sh
       - nautilus-open-any-terminal.sh
-      - hide-app-icons.sh
       - gcc.sh
+      - hide-app-icons.sh
 
   - type: bling
     install:
