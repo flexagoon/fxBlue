@@ -10,6 +10,8 @@ modules:
       - fish
       - wl-clipboard
       - neovim
+      - gcc
+      - g++
 
     remove:
       - firefox
@@ -44,7 +46,7 @@ modules:
       - signing.sh
       - extensions.sh
       - nautilus-open-any-terminal.sh
-      - gcc.sh
+      # - gcc.sh
       - hide-app-icons.sh
 
   - type: bling
