@@ -6,6 +6,9 @@ image-version: latest
 
 modules:
   - type: rpm-ostree
+    repos:
+      - https://copr.fedorainfracloud.org/coprs/agriffis/neovim-nightly/repo/fedora-%OS_VERSION%/agriffis-neovim-nightly-fedora-%OS_VERSION%.repo
+
     install:
       - fish
       - wl-clipboard

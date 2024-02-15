@@ -26,4 +26,4 @@ It sets up the uBlue Nvidia image with the following changes:
   - Enable touchpad tap to click
   - Center new windows
 - Install gcc and g++
-- Replace vim with neovim
+- Replace vim with neovim nightly
