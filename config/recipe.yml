@@ -51,6 +51,6 @@ modules:
       - nautilus-open-any-terminal.sh
       - hide-app-icons.sh
 
-  - type: bling
-    install:
-      - dconf-update-service
+  - type: gschema-overrides
+    include:
+      - zz1-fxblue.gschema.override
