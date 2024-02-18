@@ -46,6 +46,7 @@ modules:
 
   - type: script
     scripts:
+      - ld.sh
       - signing.sh
       - extensions.sh
       - nautilus-open-any-terminal.sh
