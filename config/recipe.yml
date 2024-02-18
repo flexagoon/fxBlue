@@ -15,6 +15,7 @@ modules:
       - neovim
       - gcc
       - g++
+      - binutils
 
     remove:
       - firefox
