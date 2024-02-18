@@ -25,5 +25,5 @@ It sets up the uBlue Nvidia image with the following changes:
   - Show battery percentage
   - Enable touchpad tap to click
   - Center new windows
-- Install gcc and g++
+- Install gcc, g++ and binutils
 - Replace vim with neovim nightly
