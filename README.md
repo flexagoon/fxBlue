@@ -27,3 +27,4 @@ It sets up the uBlue Nvidia image with the following changes:
   - Center new windows
 - Install gcc and g++
 - Replace vim with neovim nightly
+- Install podman-compose
