@@ -1,6 +1,6 @@
 # fxBlue
 
-This is my custom image for Fedora Silverblue based on [uBlue](https://universal-blue.org).
+This is my custom image for Fedora Silverblue based on [BlueBuild](https://blue-build.org/) and [uBlue](https://universal-blue.org).
 
 It sets up the uBlue Nvidia image with the following changes:
 
