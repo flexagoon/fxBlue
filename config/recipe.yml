@@ -18,6 +18,7 @@ modules:
       - podman-compose
       - tlp
       - tlp-rdw
+      - nautilus-open-any-terminal
 
     remove:
       - firefox
