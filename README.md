@@ -17,8 +17,6 @@ It sets up the uBlue Nvidia image with the following changes:
 - Install the Fish shell
 - Install wl-clipboard
 - Add required udev rules for kmonad
-- Harden kernel parameters
-- Randomize MAC address
 - Remove Gnome classic session
 - Change Gnome settings
   - Use adw-gtk3 by default
@@ -28,3 +26,16 @@ It sets up the uBlue Nvidia image with the following changes:
 - Install gcc and g++
 - Replace vim with neovim nightly
 - Install podman-compose
+- Harden the system
+    - NetworkManager
+        - [Randomize MAC address](https://github.com/flexagoon/fxblue/blob/main/config/files/usr/etc/NetworkManager/conf.d/99-random-mac.conf)
+        - [Enable IPv6 privacy extensions](https://github.com/flexagoon/fxblue/blob/main/config/files/usr/etc/NetworkManager/conf.d/99-ipv6-privacy.conf)
+    - [Use hardened kernel parameters](https://github.com/flexagoon/fxblue/blob/main/config/files/usr/etc/sysctl.d/90-hardening.conf)
+    - [Blacklist some kernel modules to reduce attack surface](https://github.com/flexagoon/fxblue/blob/main/config/files/usr/etc/modprobe.d/blacklist.conf)
+    - Use hardened boot options
+        - Run `ujust sec-kargs` to enable
+    - Use secure time synchronization with NTS
+    - Configurations taken from:
+        - [Madaidan's Linux hardening guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
+        - [PrivSec desktop Linux hardening guide](https://privsec.dev/posts/linux/desktop-linux-hardening)
+        - [secureblue](https://github.com/secureblue/secureblue)
