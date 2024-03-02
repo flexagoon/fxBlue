@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -oue pipefail
+set -euo pipefail
 
 echo "--> Installing gnome extensions"
 rpm-ostree install gnome-shell-extension-blur-my-shell

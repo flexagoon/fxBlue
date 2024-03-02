@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -oue pipefail
+set -euo pipefail
 
 echo "--> Symlinking ld"
 ln -sf /usr/bin/ld.bfd /etc/alternatives/ld

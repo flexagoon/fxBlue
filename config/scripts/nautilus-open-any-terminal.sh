@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -oue pipefail
+set -euo pipefail
 
 echo "--> Installing dependencies"
 rpm-ostree install make gettext nautilus-python

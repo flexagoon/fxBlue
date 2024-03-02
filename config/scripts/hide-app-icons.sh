@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-set -oue pipefail
+set -euo pipefail
 
 cd /usr/share/applications
 echo "Hidden=true" | tee -a nvidia-settings.desktop fish.desktop nvim.desktop
