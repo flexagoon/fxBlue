@@ -12,6 +12,7 @@ It sets up the uBlue Nvidia image with the following changes:
     - Gnome Extensions
     - Htop
     - Nvtop
+- Use the uBlue `laptop` module to replace PPD with pre-configured TLP
 - Replace gnome-terminal with Wezterm
     - Replace Gnome Terminal Nautilus integration with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
 - Install the Fish shell
