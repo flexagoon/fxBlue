@@ -16,6 +16,8 @@ modules:
       - gcc
       - g++
       - podman-compose
+      - tlp
+      - tlp-rdw
 
     remove:
       - firefox
@@ -34,23 +36,28 @@ modules:
       - gnome-shell-extension-window-list
       - gnome-tweaks
       - vim-enhanced
+      - power-profiles-daemon
 
   - type: files
     files:
       - usr: /usr
+
+  - type: systemd
+    system:
+      enabled:
+        - tlp.service
+
+  - type: script
+    scripts:
+      - ld.sh
+      - extensions.sh
+      - hide-app-icons.sh
 
   - type: default-flatpaks
     system:
       install:
         - org.mozilla.firefox
         - org.wezfurlong.wezterm
-
-  - type: script
-    scripts:
-      - ld.sh
-      - extensions.sh
-      - nautilus-open-any-terminal.sh
-      - hide-app-icons.sh
 
   - type: gschema-overrides
     include:
