@@ -66,8 +66,4 @@ modules:
     include:
       - zz1-fxblue.gschema.override
 
-  - type: bling
-    install:
-      - laptop
-
   - type: signing
