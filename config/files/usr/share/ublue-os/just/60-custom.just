@@ -28,5 +28,5 @@ initramfs:
 
 # Set up hardened_malloc for Flatpak apps
 harden-flatpak:
-    flatpak override --user --env=LD_PRELOAD=/var/run/host/usr/lib64/libhardened_malloc.so
+    flatpak override --user --filesystem=host-os:ro --env=LD_PRELOAD=/var/run/host/usr/lib64/libhardened_malloc.so
 
