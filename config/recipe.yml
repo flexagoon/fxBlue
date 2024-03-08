@@ -18,6 +18,8 @@ modules:
       - gcc
       - g++
       - podman-compose
+      - tlp
+      - tlp-rdw
       - nautilus-open-any-terminal
       - hardened_malloc
 
@@ -38,10 +40,16 @@ modules:
       - gnome-shell-extension-window-list
       - gnome-tweaks
       - vim-enhanced
+      - power-profiles-daemon
 
   - type: files
     files:
       - usr: /usr
+
+  - type: systemd
+    system:
+      enabled:
+        - tlp.service
 
   - type: script
     scripts:
