@@ -25,8 +25,3 @@ initramfs:
     rpm-ostree initramfs --enable \
       --arg=-I --arg=/etc/vconsole.conf \
       --arg=--force-add --arg=tpm2-tss
-
-# Set up hardened_malloc for Flatpak apps
-harden-flatpak:
-    flatpak override --user --filesystem=host-os:ro --env=LD_PRELOAD=/var/run/host/usr/lib64/libhardened_malloc.so
-
