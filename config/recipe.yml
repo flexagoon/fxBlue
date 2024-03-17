@@ -9,7 +9,6 @@ modules:
     repos:
       - https://copr.fedorainfracloud.org/coprs/agriffis/neovim-nightly/repo/fedora-%OS_VERSION%/agriffis-neovim-nightly-fedora-%OS_VERSION%.repo
       - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/secureblue/hardened_malloc/repo/fedora-%OS_VERSION%/secureblue-hardened_malloc-fedora-%OS_VERSION%.repo
 
     install:
       - fish
@@ -21,7 +20,6 @@ modules:
       - tlp
       - tlp-rdw
       - nautilus-open-any-terminal
-      - hardened_malloc
 
     remove:
       - firefox

@@ -36,8 +36,6 @@ It sets up the uBlue Nvidia image with the following changes:
     - Use hardened boot options
         - Run `ujust sec-kargs` to enable
     - Use secure time synchronization with NTS
-    - Set up [hardened_malloc](https://github.com/GrapheneOS/hardened_malloc)
-        - Run `ujust harden-flatpak` to enable it for Flatpak apps
     - Configurations taken from:
         - [Madaidan's Linux hardening guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
         - [PrivSec desktop Linux hardening guide](https://privsec.dev/posts/linux/desktop-linux-hardening)
