@@ -24,7 +24,9 @@ It sets up the uBlue Nvidia image with the following changes:
   - Show battery percentage
   - Enable touchpad tap to click
   - Center new windows
-- Install gcc and g++
+- Install packages which are needed for some neovim plugins:
+  - gcc and g++
+  - libcurl-devel
 - Replace vim with neovim nightly
 - Install podman-compose
 - Harden the system
