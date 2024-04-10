@@ -20,6 +20,7 @@ modules:
       - tlp
       - tlp-rdw
       - nautilus-open-any-terminal
+      - libcurl-devel
 
     remove:
       - firefox
