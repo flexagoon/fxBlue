@@ -12,6 +12,11 @@ It sets up the uBlue Nvidia image with the following changes:
     - Gnome Extensions
     - Htop
     - Nvtop
+- Install Gnome extensions
+    - Blur My Shell
+    - Alphabetical App Grid
+    - Clipboard Indicator
+    - Focused Window D-Bus
 - Replace PPD with TLP for more aggressive power saving
 - Replace gnome-terminal with Wezterm
     - Replace Gnome Terminal Nautilus integration with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)

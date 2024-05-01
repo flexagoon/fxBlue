@@ -54,8 +54,14 @@ modules:
   - type: script
     scripts:
       - ld.sh
-      - extensions.sh
       - hide-app-icons.sh
+
+  - type: gnome-extensions
+    install:
+      - blur-my-shellaunetx.v61 # Blur My Shell
+      - AlphabeticalAppGridstuarthayhurst.v40 # Alphabetical App Grid
+      - clipboard-indicatortudmotu.com.v62 # Clipboard Indicator
+      - focused-window-dbusflexagoon.com.v6 # Focused Window D-Bus
 
   - type: default-flatpaks
     system:
