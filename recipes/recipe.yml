@@ -56,7 +56,6 @@ modules:
       - ld.sh
       - extensions.sh
       - hide-app-icons.sh
-      - disable-staging.sh
 
   - type: default-flatpaks
     system:
