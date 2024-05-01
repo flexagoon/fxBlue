@@ -32,6 +32,7 @@ modules:
       - gnome-terminal-nautilus
       - gnome-tour
       - gnome-classic-session
+      - gnome-classic-session-xsession
       - gnome-shell-extension-apps-menu
       - gnome-shell-extension-background-logo
       - gnome-shell-extension-launch-new-instance
