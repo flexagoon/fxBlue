@@ -21,6 +21,7 @@ modules:
       - tlp-rdw
       - nautilus-open-any-terminal
       - libcurl-devel
+      - zenity
 
     remove:
       - firefox
