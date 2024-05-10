@@ -63,6 +63,7 @@ modules:
       - AlphabeticalAppGridstuarthayhurst.v40 # Alphabetical App Grid
       - clipboard-indicatortudmotu.com.v62 # Clipboard Indicator
       - focused-window-dbusflexagoon.com.v6 # Focused Window D-Bus
+      - run-or-raiseedvard.cz.v37 # Run or Raise
 
   - type: default-flatpaks
     system:
