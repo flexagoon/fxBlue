@@ -74,4 +74,7 @@ modules:
     include:
       - zz1-fxblue.gschema.override
 
+  - type: chezmoi
+    repository: https://github.com/flexagoon/dotfiles
+
   - type: signing
