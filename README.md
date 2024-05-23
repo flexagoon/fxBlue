@@ -22,6 +22,7 @@ It sets up the uBlue Nvidia image with the following changes:
     - Replace Gnome Terminal Nautilus integration with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
 - Install the Fish shell
 - Install wl-clipboard
+- Install zenity
 - Add required udev rules for kmonad
 - Remove Gnome classic session
 - Change Gnome settings
@@ -32,6 +33,7 @@ It sets up the uBlue Nvidia image with the following changes:
 - Install packages which are needed for some neovim plugins:
   - gcc and g++
   - libcurl-devel
+  - luajit-devel
 - Replace vim with neovim nightly
 - Install podman-compose
 - Harden the system
@@ -47,3 +49,4 @@ It sets up the uBlue Nvidia image with the following changes:
         - [Madaidan's Linux hardening guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
         - [PrivSec desktop Linux hardening guide](https://privsec.dev/posts/linux/desktop-linux-hardening)
         - [secureblue](https://github.com/secureblue/secureblue)
+- Automatically install [my dotfiles](https://github.com/flexagoon/dotfiles)
