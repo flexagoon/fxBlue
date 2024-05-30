@@ -60,7 +60,7 @@ modules:
 
   - type: gnome-extensions
     install:
-      - blur-my-shellaunetx.v61 # Blur My Shell
+      - blur-my-shellaunetx.v62 # Blur My Shell
       - AlphabeticalAppGridstuarthayhurst.v40 # Alphabetical App Grid
       - clipboard-indicatortudmotu.com.v62 # Clipboard Indicator
       - focused-window-dbusflexagoon.com.v6 # Focused Window D-Bus
