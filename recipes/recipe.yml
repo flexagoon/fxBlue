@@ -23,6 +23,7 @@ modules:
       - libcurl-devel
       - zenity
       - luajit-devel
+      - inotify-tools
 
     remove:
       - firefox
