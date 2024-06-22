@@ -63,7 +63,7 @@ modules:
     install:
       - Blur my Shell
       - Alphabetical App Grid
-      - Clipboard Indicator
+      - 779 # Clipboard Indicator
       - Focused Window D-Bus
       - Run or raise
 
