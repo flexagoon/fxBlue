@@ -17,6 +17,7 @@ It sets up the uBlue Nvidia image with the following changes:
     - Alphabetical App Grid
     - Clipboard Indicator
     - Focused Window D-Bus
+    - Rounded Window Corners Reborn
 - Replace PPD with TLP for more aggressive power saving
 - Replace gnome-terminal with Wezterm
     - Replace Gnome Terminal Nautilus integration with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
