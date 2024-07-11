@@ -17,8 +17,7 @@ modules:
       - gcc
       - g++
       - podman-compose
-      - tlp
-      - tlp-rdw
+      - tuned-ppd
       - nautilus-open-any-terminal
       - libcurl-devel
       - zenity
@@ -48,11 +47,6 @@ modules:
   - type: files
     files:
       - usr: /usr
-
-  - type: systemd
-    system:
-      enabled:
-        - tlp.service
 
   - type: script
     scripts:
