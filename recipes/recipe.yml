@@ -79,6 +79,9 @@ modules:
     include:
       - zz1-fxblue.gschema.override
 
+  - type: brew
+    brew-analytics: false
+
   - type: chezmoi
     repository: https://github.com/flexagoon/dotfiles
 
