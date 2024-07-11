@@ -51,4 +51,5 @@ It sets up the uBlue Nvidia image with the following changes:
         - [Madaidan's Linux hardening guide](https://madaidans-insecurities.github.io/guides/linux-hardening.html)
         - [PrivSec desktop Linux hardening guide](https://privsec.dev/posts/linux/desktop-linux-hardening)
         - [secureblue](https://github.com/secureblue/secureblue)
+- Install [Homebrew](https://brew.sh/)
 - Automatically install [my dotfiles](https://github.com/flexagoon/dotfiles)
