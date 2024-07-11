@@ -35,7 +35,6 @@ It sets up the uBlue Nvidia image with the following changes:
   - gcc and g++
   - libcurl-devel
   - luajit-devel
-- Install [IVPN](https://www.ivpn.net/)
 - Replace vim with neovim nightly
 - Install podman-compose
 - Harden the system
