@@ -58,6 +58,7 @@ modules:
     scripts:
       - ld.sh
       - hide-app-icons.sh
+      - authselect.sh
 
   - type: gnome-extensions
     install:
