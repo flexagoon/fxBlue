@@ -62,6 +62,7 @@ modules:
       - Focused Window D-Bus
       - Run or raise
       - Rounded Window Corners Reborn
+      - Tiling Assistant
 
   - type: default-flatpaks
     system:
