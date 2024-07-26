@@ -46,7 +46,8 @@ modules:
 
   - type: files
     files:
-      - usr: /usr
+      - source: usr
+        destination: /usr
 
   - type: script
     scripts:
