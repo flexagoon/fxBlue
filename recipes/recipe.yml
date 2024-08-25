@@ -41,6 +41,7 @@ modules:
       - gnome-shell-extension-places-menu
       - gnome-shell-extension-window-list
       - gnome-tweaks
+      - gnome-system-monitor
       - vim-enhanced
       - power-profiles-daemon
 
@@ -70,6 +71,7 @@ modules:
       install:
         - org.mozilla.firefox
         - org.wezfurlong.wezterm
+        - io.missioncenter.MissionCenter
 
   - type: gschema-overrides
     include:
