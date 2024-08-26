@@ -19,6 +19,11 @@ sec-kargs:
       --append-if-missing="iommu=force" \
       --append-if-missing="iommu.passthrough=0" \
       --append-if-missing="iommu.strict=1" \
+      --append-if-missing="mitigations=auto,nosmt" \
+      --append-if-missing="spectre_v2=on" \
+      --append-if-missing="spec_store_bypass_disable=on" \
+      --append-if-missing="l1d_flush=on" \
+      --append-if-missing="gather_data_sampling=force" \
 
 # Add /etc/vconsole.conf and the tpm2-tss driver to the initramfs
 initramfs:
