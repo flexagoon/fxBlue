@@ -22,6 +22,7 @@ modules:
       - libcurl-devel
       - zenity
       - luajit-devel
+      - lua
       - inotify-tools
 
     remove:

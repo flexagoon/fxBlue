@@ -36,6 +36,7 @@ It sets up the uBlue Nvidia image with the following changes:
 - Install packages which are needed for some neovim plugins:
   - gcc and g++
   - libcurl-devel
+  - lua
   - luajit-devel
 - Replace vim with neovim nightly
 - Install podman-compose
