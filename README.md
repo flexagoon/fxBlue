@@ -39,7 +39,7 @@ It sets up the uBlue Nvidia image with the following changes:
   - lua
   - luajit-devel
 - Replace vim with neovim nightly
-- Install podman-compose
+- Install podman-compose and podman-docker
 - Harden the system
     - NetworkManager
         - [Randomize MAC address](https://github.com/flexagoon/fxblue/blob/main/config/files/usr/etc/NetworkManager/conf.d/99-random-mac.conf)
