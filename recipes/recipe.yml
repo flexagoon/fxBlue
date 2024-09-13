@@ -17,6 +17,7 @@ modules:
       - gcc
       - g++
       - podman-compose
+      - podman-docker
       - tuned-ppd
       - nautilus-open-any-terminal
       - libcurl-devel
