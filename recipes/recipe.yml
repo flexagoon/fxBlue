@@ -64,7 +64,7 @@ modules:
       - 779 # Clipboard Indicator
       - Focused Window D-Bus
       - Run or raise
-      - Rounded Window Corners Reborn
+      # - Rounded Window Corners Reborn
       - Tiling Assistant
 
   - type: default-flatpaks
