@@ -26,7 +26,7 @@ It sets up the uBlue Nvidia image with the following changes:
 - Install the Fish shell
 - Install wl-clipboard
 - Install zenity
-- Add required udev rules for kmonad
+- Add required udev rules for kmonad and Flipper Zero
 - Remove Gnome classic session
 - Change Gnome settings
   - Use adw-gtk3 by default
