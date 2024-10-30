@@ -34,7 +34,6 @@ modules:
       - htop
       - nvtop
       - yelp
-      - gnome-terminal
       - gnome-terminal-nautilus
       - gnome-tour
       - gnome-classic-session
