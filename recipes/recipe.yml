@@ -25,6 +25,7 @@ modules:
       - luajit-devel
       - lua
       - inotify-tools
+      - android-tools
 
     remove:
       - firefox
