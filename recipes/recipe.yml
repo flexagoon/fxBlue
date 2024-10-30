@@ -18,7 +18,6 @@ modules:
       - g++
       - podman-compose
       - podman-docker
-      - tuned-ppd
       - nautilus-open-any-terminal
       - libcurl-devel
       - zenity
@@ -44,7 +43,6 @@ modules:
       - gnome-tweaks
       - gnome-system-monitor
       - vim-enhanced
-      - power-profiles-daemon
 
   - type: files
     files:
