@@ -26,6 +26,7 @@ modules:
       - lua
       - inotify-tools
       - android-tools
+      - kitty
 
     remove:
       - firefox
@@ -73,7 +74,6 @@ modules:
     system:
       install:
         - org.mozilla.firefox
-        - org.wezfurlong.wezterm
         - io.missioncenter.MissionCenter
 
   - type: gschema-overrides
