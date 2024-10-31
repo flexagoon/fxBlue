@@ -19,9 +19,8 @@ It sets up the uBlue Nvidia image with the following changes:
     - Focused Window D-Bus
     - Rounded Window Corners Reborn
     - Tiling Assistant
-- Replace PPD with Tuned for better power saving
-- Replace gnome-terminal with Kitty
-    - Replace Gnome Terminal Nautilus integration with [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
+- Replace Ptyxis with Kitty
+    - Install [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
 - Replace Gnome System Monitor with Mission Center
 - Install the Fish shell
 - Install wl-clipboard

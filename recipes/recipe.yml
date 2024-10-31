@@ -43,6 +43,7 @@ modules:
       - gnome-tweaks
       - gnome-system-monitor
       - vim-enhanced
+      - ptyxis
 
   - type: files
     files:
