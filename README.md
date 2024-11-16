@@ -6,12 +6,12 @@ It sets up the uBlue Nvidia image with the following changes:
 
 - Replace firefox with Flatpak version
 - Remove unneeded packages
-    - Gnome Tour 👎
-    - Gnome Help 👎
-    - Gnome Tweaks 👎
-    - Gnome Extensions 👎
-    - Htop 👎
-    - Nvtop 👎
+    - Gnome Tour
+    - Gnome Help
+    - Gnome Tweaks
+    - Gnome Extensions
+    - Htop
+    - Nvtop
 - Install Gnome extensions
     - [Blur My Shell](https://github.com/aunetx/blur-my-shell)
     - [Alphabetical App Grid](https://github.com/stuarthayhurst/alphabetical-grid-extension)
@@ -21,18 +21,18 @@ It sets up the uBlue Nvidia image with the following changes:
     - [Tiling Assistant](https://github.com/Leleat/Tiling-Assistant)
 - Replace Ptyxis with Kitty
     - Install [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
-- Replace Gnome System Monitor 👎 with [Mission Center](https://missioncenter.io/)
+- Replace Gnome System Monitor with [Mission Center](https://missioncenter.io/)
 - Install the [Fish shell](https://fishshell.com/)
 - Install [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 - Install [zenity](https://help.gnome.org/users/zenity/stable/)
 - Install android-tools
-- Add required udev rules for kmonad and Flipper Zero 👍
-- Remove [Gnome classic session](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/what-is-gnome-classic) 👎
+- Add required udev rules for kmonad and Flipper Zero
+- Remove [Gnome classic session](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/what-is-gnome-classic)
 - Change Gnome settings
   - Use [adw-gtk3](https://github.com/lassekongo83/adw-gtk3) by default
-  - Show battery percentage 🔋
-  - Enable touchpad tap to click 👆
-  - Center new windows 🪟
+  - Show battery percentage
+  - Enable touchpad tap to click
+  - Center new windows
 - Install packages which are needed for some neovim plugins:
   - [gcc and g++](https://gcc.gnu.org/)
   - [libcurl-devel](https://packages.fedoraproject.org/pkgs/curl/libcurl-devel/)
