@@ -69,7 +69,7 @@ modules:
   - type: default-flatpaks
     system:
       install:
-        - org.mozilla.firefox
+        - io.github.zen_browser.zen
         - io.missioncenter.MissionCenter
 
   - type: gschema-overrides

@@ -4,7 +4,7 @@ This is my custom image for Fedora Silverblue based on [BlueBuild](https://blue-
 
 It sets up the uBlue Nvidia image with the following changes:
 
-- Replace firefox with Flatpak version
+- Replace firefox with Zen Browser
 - Remove unneeded packages
     - Gnome Tour
     - Gnome Help
