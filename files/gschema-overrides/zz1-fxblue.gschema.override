@@ -1,6 +1,6 @@
 [com.github.stunkymonkey.nautilus-open-any-terminal]
 flatpak='off'
-terminal='kitty'
+terminal='ghostty'
 
 [org.gnome.desktop.interface]
 gtk-theme='adw-gtk3'
