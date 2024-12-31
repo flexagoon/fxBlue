@@ -19,7 +19,7 @@ It sets up the uBlue Nvidia image with the following changes:
     - [Focused Window D-Bus](https://github.com/flexagoon/focused-window-dbus)
     - [Rounded Window Corners Reborn](https://github.com/flexagoon/rounded-window-corners)
     - [Tiling Assistant](https://github.com/Leleat/Tiling-Assistant)
-- Replace Ptyxis with Kitty
+- Replace Ptyxis with Ghostty
     - Install [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
 - Replace Gnome System Monitor with [Mission Center](https://missioncenter.io/)
 - Install the [Fish shell](https://fishshell.com/)
