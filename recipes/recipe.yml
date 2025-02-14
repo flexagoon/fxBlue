@@ -70,7 +70,7 @@ modules:
   - type: default-flatpaks
     system:
       install:
-        - io.github.zen_browser.zen
+        - app.zen_browser.zen
         - io.missioncenter.MissionCenter
 
   - type: gschema-overrides
