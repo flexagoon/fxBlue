@@ -5,51 +5,80 @@ base-image: ghcr.io/ublue-os/silverblue-nvidia
 image-version: latest
 
 modules:
-  - type: rpm-ostree
+  - type: dnf
     repos:
-      - https://copr.fedorainfracloud.org/coprs/agriffis/neovim-nightly/repo/fedora-%OS_VERSION%/agriffis-neovim-nightly-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/ublue-os/staging/repo/fedora-%OS_VERSION%/ublue-os-staging-fedora-%OS_VERSION%.repo
-      - https://copr.fedorainfracloud.org/coprs/pgdev/ghostty/repo/fedora-%OS_VERSION%/pgdev-ghostty-fedora-%OS_VERSION%.repo
+      cleanup: true
+      copr:
+        - agriffis/neovim-nightly
+        - monkeygold/nautilus-open-any-terminal
+        - pgdev/ghostty
 
     install:
-      - fish
-      - wl-clipboard
-      - neovim
-      - gcc
-      - g++
-      - podman-compose
-      - podman-docker
-      - nautilus-open-any-terminal
-      - libcurl-devel
-      - zenity
-      - luajit-devel
-      - lua
-      - inotify-tools
-      - android-tools
-      - ghostty
+      packages:
+        - fish
+        - wl-clipboard
+        - neovim
+        - gcc
+        - g++
+        - podman-compose
+        - podman-docker
+        - nautilus-open-any-terminal
+        - libcurl-devel
+        - luajit-devel
+        - lua
+        - inotify-tools
+        - android-tools
+        - ghostty
 
     remove:
-      - firefox
-      - firefox-langpacks
-      - htop
-      - nvtop
-      - yelp
-      - gnome-tour
-      - gnome-classic-session
-      - gnome-shell-extension-apps-menu
-      - gnome-shell-extension-background-logo
-      - gnome-shell-extension-launch-new-instance
-      - gnome-shell-extension-places-menu
-      - gnome-shell-extension-window-list
-      - gnome-tweaks
-      - gnome-system-monitor
-      - vim-enhanced
-      - ptyxis
+      packages:
+        - firefox
+        - firefox-langpacks
+        - htop
+        - nvtop
+        - yelp
+        - gnome-tour
+        - gnome-classic-session
+        - gnome-shell-extension-apps-menu
+        - gnome-shell-extension-background-logo
+        - gnome-shell-extension-launch-new-instance
+        - gnome-shell-extension-places-menu
+        - gnome-shell-extension-window-list
+        - gnome-tweaks
+        - gnome-system-monitor
+        - vim-enhanced
+        - ptyxis
 
   - type: files
     files:
       - source: system
         destination: /
+
+  - type: kargs
+    kargs:
+      - slab_nomerge
+      - init_on_alloc=1
+      - init_on_free=1
+      - page_alloc.shuffle=1
+      - pti=on
+      - randomize_kstack_offset=on
+      - vsyscall=none
+      - module.sig_enforce=1
+      - lockdown=confidentiality
+      - quiet
+      - loglevel=0
+      - random.trust_cpu=off
+      - random.trust_bootloader=off
+      - intel_iommu=on
+      - amd_iommu=force_isolation
+      - iommu=force
+      - iommu.passthrough=0
+      - iommu.strict=1
+      - mitigations=auto,nosmt
+      - spectre_v2=on
+      - spec_store_bypass_disable=on
+      - l1d_flush=on
+      - gather_data_sampling=force
 
   - type: script
     scripts:
