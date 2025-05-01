@@ -24,7 +24,6 @@ It sets up the uBlue Nvidia image with the following changes:
 - Replace Gnome System Monitor with [Mission Center](https://missioncenter.io/)
 - Install the [Fish shell](https://fishshell.com/)
 - Install [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
-- Install [zenity](https://help.gnome.org/users/zenity/stable/)
 - Install android-tools
 - Add required udev rules for kmonad and Flipper Zero
 - Remove [Gnome classic session](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/desktop_migration_and_administration_guide/what-is-gnome-classic)
@@ -47,7 +46,6 @@ It sets up the uBlue Nvidia image with the following changes:
     - [Use hardened kernel parameters](https://github.com/flexagoon/fxblue/blob/main/config/files/usr/etc/sysctl.d/90-hardening.conf)
     - [Blacklist some kernel modules to reduce attack surface](https://github.com/flexagoon/fxblue/blob/main/config/files/usr/etc/modprobe.d/blacklist.conf)
     - Use hardened boot options
-        - Run `ujust sec-kargs` to enable
     - Use secure time synchronization with NTS
     - Use local authselect profile
     - Configurations taken from:
