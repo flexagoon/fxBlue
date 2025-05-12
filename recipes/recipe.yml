@@ -85,6 +85,8 @@ modules:
       - ld.sh
       - hide-app-icons.sh
 
+  - type: initramfs
+
   - type: gnome-extensions
     install:
       - Blur my Shell

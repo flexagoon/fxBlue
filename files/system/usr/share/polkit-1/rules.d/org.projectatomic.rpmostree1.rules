@@ -1,6 +1,6 @@
 /* Overwrites polkit rule that allows rpm-ostree install to be used without sudo
    Allows only upgrades and repo refreshes without sudo
-   https://github.com/secureblue/secureblue/blob/live/config/files/usr/share/polkit-1/rules.d/org.projectatomic.rpmostree1.rules
+   https://github.com/secureblue/secureblue/blob/live/files/system/usr/share/polkit-1/rules.d/org.projectatomic.rpmostree1.rules
  */
 polkit.addRule(function(action, subject) {
     if ((action.id == "org.projectatomic.rpmostree1.repo-refresh" ||
