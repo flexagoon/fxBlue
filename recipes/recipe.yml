@@ -104,8 +104,6 @@ modules:
         - io.missioncenter.MissionCenter
 
   - type: gschema-overrides
-    include:
-      - zz1-fxblue.gschema.override
 
   - type: brew
     brew-analytics: false
