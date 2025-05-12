@@ -81,9 +81,9 @@ modules:
       - gather_data_sampling=force
 
   - type: script
-    scripts:
-      - ld.sh
-      - hide-app-icons.sh
+    snippets:
+      - echo "Hidden=true" | tee -a /usr/share/applications/{nvidia-settings,fish,nvim}.desktop
+      - ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/bin/ld
 
   - type: initramfs
 
