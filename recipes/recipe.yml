@@ -11,7 +11,7 @@ modules:
       copr:
         - agriffis/neovim-nightly
         - monkeygold/nautilus-open-any-terminal
-        - pgdev/ghostty
+        - jmullens/ghostty-fixes
 
     install:
       packages:
