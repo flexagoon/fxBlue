@@ -48,6 +48,7 @@ modules:
         - gnome-system-monitor
         - vim-enhanced
         - ptyxis
+        - malcontent-control
 
   - type: files
     files:
