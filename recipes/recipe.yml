@@ -80,6 +80,7 @@ modules:
       - spec_store_bypass_disable=on
       - l1d_flush=on
       - gather_data_sampling=force
+      - pcie_aspm=force
 
   - type: script
     snippets:
