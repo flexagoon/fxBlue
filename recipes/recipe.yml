@@ -100,10 +100,12 @@ modules:
       - Tiling Assistant
 
   - type: default-flatpaks
-    system:
-      install:
-        - app.zen_browser.zen
-        - io.missioncenter.MissionCenter
+    configurations:
+      - scope: system
+        notify: false
+        install:
+          - app.zen_browser.zen
+          - io.missioncenter.MissionCenter
 
   - type: gschema-overrides
 
