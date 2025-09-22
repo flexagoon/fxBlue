@@ -3,3 +3,4 @@ wheel:x:10:
 input:x:104:
 adbusers:x:968:
 uinput:x:1234:
+wireshark:x:963:
