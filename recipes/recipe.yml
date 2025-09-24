@@ -29,6 +29,8 @@ modules:
         - inotify-tools
         - android-tools
         - ghostty
+        - wireshark
+        - gnome-boxes
 
     remove:
       packages:
