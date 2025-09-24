@@ -54,3 +54,6 @@ It sets up the uBlue Nvidia image with the following changes:
         - [secureblue](https://github.com/secureblue/secureblue)
 - Install [Homebrew](https://brew.sh/)
 - Automatically install [my dotfiles](https://github.com/flexagoon/dotfiles)
+- Install some apps that don't work as a Flatpak
+    - [wireshark](https://www.wireshark.org/) (with the required group created)
+    - [gnome-boxes](https://apps.gnome.org/Boxes/)
