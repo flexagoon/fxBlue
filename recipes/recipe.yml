@@ -93,9 +93,7 @@ modules:
 
   - type: gnome-extensions
     install:
-      # Blur my Shell disabled while waiting for GNOME 49 support
-      # https://github.com/aunetx/blur-my-shell/pull/791
-      # - Blur my Shell 
+      - Blur my Shell 
       - Alphabetical App Grid
       - 779 # Clipboard Indicator
       - Focused Window D-Bus
