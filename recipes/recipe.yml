@@ -117,4 +117,14 @@ modules:
   - type: chezmoi
     repository: https://github.com/flexagoon/dotfiles
 
+  - type: fonts
+    fonts:
+      url-fonts:
+        - name: Inter
+          url: https://github.com/rsms/inter/releases/download/v4.1/Inter-4.1.zip
+      nerd-fonts:
+        - IBMPlexMono
+        - SourceCodePro
+        - FiraCode
+
   - type: signing
