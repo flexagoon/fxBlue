@@ -57,3 +57,4 @@ It sets up the uBlue Nvidia image with the following changes:
 - Install some apps that don't work as a Flatpak
     - [wireshark](https://www.wireshark.org/) (with the required group created)
     - [gnome-boxes](https://apps.gnome.org/Boxes/)
+- Install Inter and a few nerd fonts
