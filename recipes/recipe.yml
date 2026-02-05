@@ -115,7 +115,7 @@ modules:
     brew-analytics: false
 
   - type: chezmoi
-    repository: https://github.com/flexagoon/dotfiles
+    repository: https://codeberg.org/fxgn/dotfiles
 
   - type: fonts
     fonts:
