@@ -22,6 +22,7 @@ It sets up the uBlue Nvidia image with the following changes:
 - Replace Ptyxis with Ghostty
     - Install [nautilus-open-any-terminal](https://github.com/Stunkymonkey/nautilus-open-any-terminal)
 - Replace Gnome System Monitor with [Mission Center](https://missioncenter.io/)
+- Replace Gnome Software with [Bazaar](https://github.com/kolunmi/bazaar)
 - Install the [Fish shell](https://fishshell.com/)
 - Install [wl-clipboard](https://github.com/bugaevc/wl-clipboard)
 - Install android-tools
