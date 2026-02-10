@@ -85,7 +85,7 @@ modules:
       - gather_data_sampling=force
       - pcie_aspm=force
 
-  - type: script
+  - type: script@v1
     snippets:
       - echo "Hidden=true" | tee -a /usr/share/applications/{nvidia-settings,fish,nvim}.desktop
       - ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/bin/ld
