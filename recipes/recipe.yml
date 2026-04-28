@@ -1,7 +1,7 @@
 name: fxblue
-description: My Fedora Silverblue image based on uBlue
+description: My Fedora Silverblue image
 
-base-image: ghcr.io/ublue-os/silverblue-nvidia
+base-image: ghcr.io/blue-build/base-images/fedora-silverblue-nvidia
 image-version: latest
 
 modules:

@@ -1,8 +1,8 @@
 # fxBlue
 
-This is my custom image for Fedora Silverblue based on [BlueBuild](https://blue-build.org/) and [uBlue](https://universal-blue.org).
+This is my custom image for Fedora Silverblue based on [BlueBuild](https://blue-build.org/)
 
-It sets up the uBlue Nvidia image with the following changes:
+It sets up the BlueBuild Nvidia image with the following changes:
 
 - Replace firefox with Zen Browser
 - Remove unneeded packages
