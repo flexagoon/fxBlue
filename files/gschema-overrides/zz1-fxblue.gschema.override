@@ -11,3 +11,6 @@ tap-to-click=true
 
 [org.gnome.mutter]
 center-new-windows=true
+
+[org.gnome.shell]
+always-show-log-out=true
