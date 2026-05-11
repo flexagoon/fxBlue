@@ -97,7 +97,7 @@ modules:
       - Blur my Shell 
       - Alphabetical App Grid
       - 779 # Clipboard Indicator
-      # - Focused Window D-Bus
+      - Focused Window D-Bus
       - Run or raise
       - Rounded Window Corners Reborn
       - Tiling Assistant
