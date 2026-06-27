@@ -87,7 +87,7 @@ modules:
 
   - type: script@v1
     snippets:
-      - echo "Hidden=true" | tee -a /usr/share/applications/{nvidia-settings,fish,nvim}.desktop
+      - echo "Hidden=true" | tee -a /usr/share/applications/{nvidia-settings,fish,org.neovim.nvim}.desktop
       - ln -sf /usr/bin/ld.bfd /etc/alternatives/ld && ln -sf /etc/alternatives/ld /usr/bin/ld
 
   - type: initramfs
